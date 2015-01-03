@@ -1,0 +1,291 @@
+/* Reset Estilos CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Fin Reset Estilos CSS */
+
+/****************************************************************************************************************************/
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('fonts/alexbrush-regular-webfont.eot');
+    src: url('fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url(fonts/'alexbrush-regular-webfont.woff') format('woff'),
+         url(fonts/'alexbrush-regular-webfont.ttf') format('truetype'),
+         url('fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    
+
+}
+
+
+a{
+	color: #041624;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+article  {
+	
+	border:solid 1px #8c8c8c;  
+	-moz-border-radius: 5px; 
+	 -webkit-border-radius: 5px; 
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 5px;
+	-moz-box-shadow:1px 2px 1px #999999;
+      -webkit-box-shadow:1px 2px 1px #999999;
+      box-shadow:1px 2px 1px #999999;
+       
+}
+/****article:hover{
+	 width: 750px;
+	height: 200px;
+        margin-left: -40px;
+}****/
+
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #4e4b58;
+      line-height: 1.2
+      
+}
+
+footer{
+	
+	background-color: #10578b;
+	color: #ffffff;
+	float: left;
+	margin: 10px 0px;
+	padding: 20px 10px;
+	text-align: center;
+	width: 940px;
+	border:inherit 5px #10578b;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+header{
+	background-color: #e2e2e2
+}
+
+header h1 {
+	font-family: 'alex_brushregular';
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 50px;
+	color: #9b0000
+}
+
+header ul{
+	color: #10578b;
+}
+
+
+
+h2{
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 5px
+}
+
+h3{
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom:5px;
+}
+h2 a:hover{
+	text-decoration: none;
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 0px 5px 0px;
+	
+}
+
+nav ul li a{
+	color: #10578b;
+	padding: 5px 20px;
+	text-decoration: none;
+	
+}
+
+nav ul li a:hover{
+	background-color: #ffffff;
+	color: #9d204f;
+	text-decoration: none;
+}
+
+p{
+	text-align: justify;
+}
+
+
+span{
+	font-weight:bold;
+      color: #5b0000
+	
+}
+
+#actual{border:solid 1px #8c8c8c;  
+	-moz-border-radius: 5px; 
+	 -webkit-border-radius: 5px; 
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 5px;
+	-moz-box-shadow:1px 2px 1px #999999;
+      -webkit-box-shadow:1px 2px 1px #999999;
+      box-shadow:1px 2px 1px #999999;
+	
+}
+
+#actual ul li{
+	border-bottom: solid 1px #4E4B58;
+	padding-bottom:10px;
+	
+	}
+		
+	
+
+#contenido{
+	margin-top: 10px;
+}
+
+
+#social {
+	text-align: center;
+	margin-bottom:15px; 
+}
+
+#paginacion{
+	text-align: center;
+}
+
+#post{
+	
+	width: 720px;
+	float: left;
+	
+}
+
+#sidebar{
+	
+	width: 225px;
+	float: right;
+	
+
+	
+}
+#wrapper{
+	
+	margin: 5px auto;
+	width: 960px;
+} 
+#logo {
+	display: block;
+	float: left;
+	height: 90px;
+	width: 400px;
+	position: relative;
+	
+}
+
+.activo a{
+background-color: #041542;
+color: #ffffff
+
+	
+}
+.fecha{
+	font-size: 12px;
+	font-style: italic;
+	padding-bottom: 10px
+}
+
+.contenidoWidget{
+	padding: 10px 10px 20px 10px;
+	
+}
+.contenidoWidget li{
+	margin-top: 4px;
+}
+
+}
+.negrita{
+	font-weight:bold;
+      color: #5b0000
+}
+.piePost{
+	padding-top: 20px;
+}
+
+.tituloWidget{
+	background-color: #10578b;
+	color:#ffffff;
+	text-align: center;
+	padding: 5px;
+}
+
+.widget{
+	margin-top: 10px;
+       border: solid 1px #1c0a02;
+       -moz-border-radius: 5px; 
+	 -webkit-border-radius: 5px; 
+	border-radius: 5px;
+	
+}
+
+.widget h3{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+}

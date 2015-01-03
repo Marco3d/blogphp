@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteRule ^.*a([0-9]*)\.html$ index.php?pos=$1 [L]
+
+RewriteRule ^.*v([0-9]*)\.html$ video.php?pos=$1 [L]
+
+# URL enriquecida para las noticias
+RewriteRule ^.*n([0-9]*)\.html$ post.php?id=$1 [L]
+
+RewriteRule ^.*-c([0-9]+)*-h([0-9]+)\.html$ categoria.php?id=$1&pos=$2 [L]
+
+ErrorDocument 404 /administrador/error.php
